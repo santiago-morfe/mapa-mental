@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: aqua;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 60%;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1000px;
+  margin-top: 10px;
+}
+button {
+  background-color: #f4f4f400;
+  
+  border-radius: 50%;
+}
+
+.contador {
+  border-radius: 1000px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  width: 33%;
+  font-family: "LBradley  Hand", cursive;
+  font-size: 30px;
+}
+
+.contador p {
+  margin: 0.3rem;
+
+}
+
+.scale {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  rotate: -90deg;
+  scale: 2.9;
+
+
+
+}
+.footer {
+  background-color: aqua;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+
+
