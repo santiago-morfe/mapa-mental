@@ -6,6 +6,7 @@ export function MainMap () {
   const [position, setPosition] = useState({ x: 0, y: 0 })
   const [isMouseDown, setIsMouseDown] = useState(false);
   const [scale, setScale] = useState(50);
+  const [lastTouch, setLastTouch] = useState({ x: 0, y: 0 })
 
 
   const handleMouseDown = (event) => {
@@ -35,13 +36,24 @@ export function MainMap () {
     setScale(newValue)
   }
 
-  const handleTouch = (e) => {
-    setPosition({
+  const handleTouchStart = (e) => {
+    setLastTouch({
       x: e.touches[0].clientX,
       y: e.touches[0].clientY
     });
-  };
+  }
 
+  const handleTouchMove = (e) => {
+    const newTouch = {
+      x: e.touches[0].clientX,
+      y: e.touches[0].clientY
+    };
+    setPosition({
+      x: position.x + newTouch.x - lastTouch.x,
+      y: position.y + newTouch.y - lastTouch.y
+    });
+    setLastTouch(newTouch);
+  }
 
   return (
     <>
@@ -56,8 +68,8 @@ export function MainMap () {
         onMouseDown={handleMouseDown}
         onMouseMove={handleMove}
         onMouseUp={handleMouseUp}
-        onTouchStart={handleTouch}
-        onTouchMove={handleTouch}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
       >
         <div
           style={{
