@@ -35,6 +35,13 @@ export function MainMap () {
     setScale(newValue)
   }
 
+  const handleTouch = (e) => {
+    setPosition({
+      x: e.touches[0].clientX,
+      y: e.touches[0].clientY
+    });
+  };
+
 
   return (
     <>
@@ -49,6 +56,8 @@ export function MainMap () {
         onMouseDown={handleMouseDown}
         onMouseMove={handleMove}
         onMouseUp={handleMouseUp}
+        onTouchStart={handleTouch}
+        onTouchMove={handleTouch}
       >
         <div
           style={{
