@@ -1,6 +1,7 @@
 export function Map() {
   return (
-    <div
+    <img
+    src="img/img-mapa.jpg"
     style={
       {
         width: '500px',
@@ -8,6 +9,6 @@ export function Map() {
         backgroundColor: 'blue'
       }
     }>
-    </div>
+    </img>
   )
 }
