@@ -5,7 +5,7 @@ export function MainMap () {
 
   const [position, setPosition] = useState({ x: 0, y: 0 })
   const [isMouseDown, setIsMouseDown] = useState(false);
-  const [scale, setScale] = useState(100);
+  const [scale, setScale] = useState(30);
   const [lastTouch, setLastTouch] = useState({ x: 0, y: 0 })
 
 
@@ -85,7 +85,7 @@ export function MainMap () {
       <input
         className='scale'
         type="range"
-        min="10"
+        min="30"
         max="200"
         value={scale}
         onChange={handleChange}

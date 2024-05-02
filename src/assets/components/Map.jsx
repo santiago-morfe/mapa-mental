@@ -1,4 +1,4 @@
-// import { Item } from './Item'
+// import { arrow } from 'public/svg/arrow.svg'
 
 export function Map() {
   return (
@@ -19,6 +19,24 @@ export function Map() {
       <div id='letrero-3'>
         Interacciónes
       </div>
+      <div id='letrero-4'>
+        Herramientas
+      </div>
+      <div id='letrero-5'>
+        Retos
+      </div>
+      <div id='letrero-6'>
+        ventajas
+      </div>
+      <div id='letrero-7'>
+        Ambientes de aprendizaje construtivistas
+      </div>
+      <div className="arrow1" id="arrow01" />
+      <div className="arrow1" id="arrow02" />
+      <div className="arrow1" id="arrow03" />
+      <div className="arrow1" id="arrow04" />
+
+
     </div>
   )
 }
