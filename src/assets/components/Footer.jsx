@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer className="footer">
-      haqui van los creditos
+      ChatGPT - IA - Figma - React - Node - Express - MongoDB - Heroku - Netlify - Github
     </footer>
   );
 }

@@ -30,23 +30,36 @@ export function Map() {
       <div id='letrero-7'>
         Ambientes de aprendizaje construtivistas
       </div>
-      <div className="arrow1" id="arrow01" />
-      <div className="arrow1" id="arrow02" />
-      <div className="arrow1" id="arrow03" />
-      <div className="arrow1" id="arrow04" />
-      <div className="arrow-double" id="arrow05" />
-      <div className="arrow-double" id="arrow06" />
-      <div className="arrow-double" id="arrow07" />
-      <div className="arrow-vertical" id="arrow08" />
-      <div className="arrow-vertical" id="arrow09" />
-      <div className="arrow-vertical" id="arrow10" />
-      <div className="arrow-vertical" id="arrow11" />
-      <div className="arrow-vertical" id="arrow12" />
-      <div className="arrow-vertical" id="arrow13" />
-      <div className="arrow-di-1" id="arrow14" />
-      <div className="arrow-di-1" id="arrow15" />
-      <div className="arrow-di-2" id="arrow16" />
-      <div className="arrow-di-2" id="arrow17" />
+      <div className="arrow1 arraw" id="arrow01" />
+      <div className="arrow1 arraw" id="arrow02" />
+      <div className="arrow1 arraw" id="arrow03" />
+      <div className="arrow1 arraw" id="arrow04" />
+      <div className="arrow-double arraw" id="arrow05" />
+      <div className="arrow-double arraw" id="arrow06" />
+      <div className="arrow-double arraw" id="arrow07" />
+      <div className="arrow-vertical arraw" id="arrow08" />
+      <div className="arrow-vertical arraw" id="arrow09" />
+      <div className="arrow-vertical arraw" id="arrow10" />
+      <div className="arrow-vertical arraw" id="arrow11" />
+      <div className="arrow-vertical arraw" id="arrow12" />
+      <div className="arrow-vertical arraw" id="arrow13" />
+      <div className="arrow-di-1 arraw" id="arrow14" />
+      <div className="arrow-di-1 arraw" id="arrow15" />
+      <div className="arrow-di-2 arraw" id="arrow16" />
+      <div className="arrow-di-2 arraw" id="arrow17" />
+      <div className="arrow-3 arraw" id="arrow18" />
+      <div className="arrow-3 arraw" id="arrow19" />
+      <div className="arrow-3 arraw" id="arrow20" />
+      <div className="arrow-3 arraw" id="arrow21" />
+      <div className="arrow-3 arraw" id="arrow22" />
+      <div className="arrow-3 arraw" id="arrow23" />
+      <div className="arrow-3 arraw" id="arrow24" />
+      <div className="arrow-3 arraw" id="arrow25" />
+      <div className="arrow-3 arraw" id="arrow26" />
+      <div className="curva arraw" id="arrow27" />
+
+
+
 
       <Item
         id='item1'

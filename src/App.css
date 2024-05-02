@@ -1,10 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  /* color pisarra verde */
+  background-color: rgb(0, 128, 0);
 }
 
 .header {
-  background-color: aqua;
+  background-color: rgb(255, 0, 0);
   padding: 10px;
   text-align: center;
   display: flex;
@@ -70,7 +72,7 @@ main{
   display: inline;
   position: fixed;
   border-radius: 10px;
-  background-color: aqua;
+  background-color: rgb(214, 214, 214);
   padding: 10px;
   text-align: center;
   width: 150px;
@@ -81,7 +83,7 @@ main{
 #letrero-2{
   display: inline;
   position: fixed;
-  background-color: aqua;
+  background-color: rgb(214, 214, 214);
   padding: 10px;
   padding-bottom: 30px;
   text-align: center;
@@ -94,7 +96,7 @@ main{
 #letrero-3{
   display: inline;
   position: fixed;
-  background-color: aqua;
+  background-color: rgb(214, 214, 214);
   padding: 10px;
   text-align: center;
   width: 100px;
@@ -105,7 +107,7 @@ main{
 #letrero-4{
   display: inline;
   position: fixed;
-  background-color: aqua;
+  background-color: rgb(214, 214, 214);
   padding: 10px;
   text-align: center;
   width: 100px;
@@ -116,7 +118,7 @@ main{
 #letrero-5{
   display: inline;
   position: fixed;
-  background-color: aqua;
+  background-color: rgb(214, 214, 214);
   padding: 10px;
   text-align: center;
   width: 100px;
@@ -127,7 +129,7 @@ main{
 #letrero-6{
   display: inline;
   position: fixed;
-  background-color: aqua;
+  background-color: rgb(214, 214, 214);
   padding: 10px;
   text-align: center;
   width: 100px;
@@ -138,12 +140,23 @@ main{
 #letrero-7{
   display: inline;
   position: fixed;
-  background-color: aqua;
+  background-color: rgb(214, 214, 214);
   padding: 10px;
   text-align: center;
   width: 190px;
   left: 1000px;
   top: 1000px;
+}
+
+button {
+  background-color: aliceblue;
+  border:   none;
+  border-radius: 50%;
+}
+
+.arraw {
+  /* cambiar el color de los svg a el de una tisa blanca */
+  fill: rgb(214, 214, 214);
 }
 
 .arrow1 {
@@ -164,6 +177,14 @@ main{
 
 .arrow-di-2 {
   background: url('/svg/arrow-di-2.svg') no-repeat;
+}
+
+.curva {
+  background: url('/svg/curba.svg') no-repeat;
+}
+
+.arrow-3 {
+  background: url('/svg/arrow-3.svg') no-repeat;
 }
 
 #arrow01 {
@@ -340,7 +361,7 @@ main{
   height: 120px;
   background-size: cover;
   background-position: center;
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 
 #arrow17 {
@@ -351,13 +372,121 @@ main{
   height: 120px;
   background-size: cover;
   background-position: center;
+  transform: rotate(90deg);
+}
+
+#arrow18 {
+  position: fixed;
+  left: 1300px;
+  top: 200px;
+  width: 120px;
+  height: 570px;
+  background-size: cover;
+  background-position: center;
   transform: rotate(0deg);
 }
 
+#arrow19 {
+  position: fixed;
+  left: 1200px;
+  top: 220px;
+  width: 120px;
+  height: 570px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-17deg);
+}
+
+#arrow20 {
+  position: fixed;
+  left: 1100px;
+  top: 260px;
+  width: 120px;
+  height: 570px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-36deg);
+}
+
+#arrow21 {
+  position: fixed;
+  left: 780px;
+  top: 590px;
+  width: 120px;
+  height: 470px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-48deg);
+}
+
+#arrow22 {
+  position: fixed;
+  left: 680px;
+  top: 720px;
+  width: 120px;
+  height: 470px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-75deg);
+}
+
+#arrow23 {
+  position: fixed;
+  left: 680px;
+  top: 905px;
+  width: 120px;
+  height: 470px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-112deg);
+}
+
+#arrow24 {
+  position: fixed;
+  left: 740px;
+  top: 1005px;
+  width: 120px;
+  height: 490px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-133deg);
+}
+
+#arrow25 {
+  position: fixed;
+  left: 840px;
+  top: 1100px;
+  width: 120px;
+  height: 490px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-155deg);
+}
+
+#arrow26 {
+  position: fixed;
+  left: 1020px;
+  top: 1130px;
+  width: 120px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-180deg);
+}
+
+#arrow27 {
+  position: fixed;
+  left: 2150px;
+  top: 1100px;
+  width: 480px;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-60deg);
+}
 
 .item {
   position: fixed;
-  /* width: 150px; */
   height: 150px;
   border: 1px solid black;
   border-radius: 20px;
@@ -386,7 +515,7 @@ main{
 }
 
 .footer {
-  background-color: aqua;
+  background-color: rgb(255, 0, 0);
   text-align: center;
   display: flex;
   position: absolute;
