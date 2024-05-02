@@ -277,8 +277,6 @@ main{
   display: none;
 }
 
-
-
 .footer {
   background-color: aqua;
   text-align: center;
@@ -401,5 +399,45 @@ main{
 }
 
 #item19 {
-
+  width: 220px;
+  height: 220px;
+  top: 500px;
+  left: 400px;
 }
+
+#item20 {
+  width: 220px;
+  height: 220px;
+  top: 800px;
+  left: 260px;
+}
+
+#item21 {
+  width: 220px;
+  height: 220px;
+  top: 1100px;
+  left: 260px;
+}
+
+#item22 {
+  width: 220px;
+  height: 220px;
+  top: 1400px;
+  left: 350px;
+}
+
+#item23 {
+  width: 220px;
+  height: 220px;
+  top: 1600px;
+  left: 620px;
+}
+
+#item24 {
+  width: 250px;
+  height: 250px;
+  top: 1680px;
+  left: 920px;
+}
+
+

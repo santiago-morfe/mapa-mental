@@ -3,13 +3,12 @@ import { Item } from './Item'
 export function Map() {
   return (
     <div
-    style={
-      {
-        width: '3000px',
-        height: '2000px',
-        border: '1px solid black',
-      }
-    }>
+      style={
+        {
+          width: '3000px',
+          height: '2000px',
+        }
+      }>
       <div id='letrero-1'>
         Ambientes hibribidos de aprendizaje
       </div>
@@ -40,100 +39,127 @@ export function Map() {
       <div className="arrow-double" id="arrow07" />
       <div className="arrow-vertical" id="arrow08" />
 
-      <Item 
+      <Item
         id='item1'
-        image='img/img1.png'  
-        description='Aula virtual' 
+        image='img/img1.png'
+        description='Aula virtual'
       />
-      <Item 
+      <Item
         id='item2'
-        image='img/img2.png'  
+        image='img/img2.png'
         description='Trabajo autónomo'
       />
-      <Item 
+      <Item
         id='item3'
-        image='img/img3.png'  
+        image='img/img3.png'
         description='Aula de clase'
       />
-      <Item 
+      <Item
         id='item4'
-        image='img/img4.png'  
+        image='img/img4.png'
         description='E - E'
       />
-      <Item 
+      <Item
         id='item5'
-        image='img/img5.png'  
+        image='img/img5.png'
         description='E - P'
       />
-      <Item 
+      <Item
         id='item6'
-        image='img/img6.png'  
+        image='img/img6.png'
         description='Plataformas de gestión del aprendizaje (LMS)'
       />
-      <Item 
+      <Item
         id='item7'
-        image='img/img7.png'  
+        image='img/img7.png'
         description='Herramientas de videoconferencia'
       />
-      <Item 
+      <Item
         id='item8'
-        image='img/img8.png'  
+        image='img/img8.png'
         description='Herramientas colaborativas'
       />
-      <Item 
+      <Item
         id='item9'
-        image='img/img9.png'  
+        image='img/img9.png'
         description='Plataformas de contenido educativo'
       />
-      <Item 
+      <Item
         id='item10'
-        image='img/img10.png'  
+        image='img/img10.png'
         description='Herramientas de evaluación y retroalimentación'
       />
-      <Item 
+      <Item
         id='item11'
-        image='img/img11.png'  
+        image='img/img11.png'
         description='Equilibrio entre lo virtual y lo presencial'
       />
-      <Item 
+      <Item
         id='item12'
-        image='img/img12.png'  
+        image='img/img12.png'
         description='Participación y compromiso de los estudiantes'
       />
-      <Item 
+      <Item
         id='item13'
-        image='img/img13.png'  
+        image='img/img13.png'
         description='Adaptación de los métodos de enseñanza'
       />
-      <Item 
+      <Item
         id='item14'
-        image='img/img14.png'  
+        image='img/img14.png'
         description='Soporte técnico y capacitación'
       />
-      <Item 
+      <Item
         id='item15'
-        image='img/img15.png'  
+        image='img/img15.png'
         description='Acceso equitativo a la tecnología'
       />
-      <Item 
+      <Item
         id='item16'
-        image='img/img16.png'  
+        image='img/img16.png'
         description='reducción de costos'
       />
-      <Item 
+      <Item
         id='item17'
-        image='img/img17.png'  
+        image='img/img17.png'
         description='accecibilidad'
       />
-      <Item 
+      <Item
         id='item18'
-        image='img/img18.png'  
+        image='img/img18.png'
         description='Flexibilidad'
       />
-      <Item 
+      <Item
         id='item19'
-        image='img/img19.png'  
+        image='img/img19.png'
         description=' Los ambientes de aprendizaje  constructivistas proveen múltiples  representaciones de la realidad.'
+      />
+      <Item
+        id='item20'
+        image='img/img20.png'
+        description=' Las múltiples representaciones  evitan la sobre simplificación y  representan la complejidad del  mundo real.'
+      />
+      <Item
+        id='item21'
+        image='img/img21.png'
+        description='Los ambientes de aprendizaje constructivistas enfatizan la  construcción de conocimiento en  lugar de la reproducción de conocimiento.'
+      />
+      <Item
+        id='item22'
+        image='img/img22.png'
+        description='Los ambientes de aprendizaje  constructivistas promueven y motivan la reflexión sobre la experiencia.'
+      />
+
+      <Item
+        id='item23'
+        image='img/img23.png'
+        description='Los ambientes de aprendizaje  constructivistas permiten la construcción de conocimiento dependiente del contenido y el contexto..'
+      />
+
+<Item
+        id='item24'
+        image='img/img24.png'
+        description='Los ambientes de aprendizaje  constructivistas apoyan la construcción colaborativa de conocimiento, a través de la negociación  social, y no entre la competencia  de los aprendices.'
       />
 
     </div>
