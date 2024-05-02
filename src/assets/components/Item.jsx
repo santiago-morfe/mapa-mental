@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 // eslint-disable-next-line react/prop-types
-export function Item ({ image, description }) {
+export function Item({ image, description, id }) {
   const [isFlipped, setIsFlipped] = useState(false)
 
   const handleClick = () => {
@@ -9,13 +9,20 @@ export function Item ({ image, description }) {
   }
 
   return (
-    <div className={`item ${isFlipped ? 'flipped' : ''}`} onClick={handleClick}>
-      <div className="front">
-        <img src={image} alt="Item Image" />
-      </div>
-      <div className="back">
-        <p>{description}</p>
-      </div>
+    <div 
+      id={id}
+      className='item' 
+      onClick={handleClick}
+    >
+      <img
+        className={`front ${isFlipped ? 'hidden' : ''}`}
+        src={image} alt="Item Image"
+      />
+      <p
+        className={`back ${isFlipped ? '' : 'hidden'}`}
+      >
+        {description}
+      </p>
     </div>
   )
 }
