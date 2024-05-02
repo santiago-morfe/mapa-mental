@@ -1,4 +1,4 @@
-import { Item } from './Item'
+// import { Item } from './Item'
 
 export function Map() {
   return (
@@ -15,6 +15,9 @@ export function Map() {
       </div>
       <div id='letrero-2'>
         Contexto
+      </div>
+      <div id='letrero-3'>
+        Interacciónes
       </div>
     </div>
   )

@@ -58,6 +58,7 @@ main{
 #letrero-1{
   display: inline;
   position: fixed;
+  border-radius: 10px;
   background-color: aqua;
   padding: 10px;
   text-align: center;
@@ -70,13 +71,23 @@ main{
   position: fixed;
   background-color: aqua;
   padding: 10px;
+  padding-bottom: 30px;
   text-align: center;
   width: 150px;
   left: 1450px;
-  top: 1250px;
-  /* darle forma de triangulo invertido apuntando asi abajo */
-  
-
+  top: 1350px;
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+#letrero-3{
+  display: inline;
+  position: fixed;
+  background-color: aqua;
+  padding: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 150px;
+  left: 1850px;
+  top: 1000px;
 }
 
 
