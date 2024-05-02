@@ -27,7 +27,7 @@ body {
 }
 
 #amarillo{
-  background-color: rgb(210, 210, 45);
+  background-color: rgb(236, 255, 32);
 }
 
 .btn-full {
@@ -324,14 +324,82 @@ main{
 
 #item6 {
   width: 250px;
-  top: 1070px;
-  left: 2720px;
+  top: 870px;
+  left: 2690px;
 }
 
 #item7 {
   width: 280px;
-  top: 1300px;
+  top: 1100px;
   left: 2680px;
 }
 
+#item8 {
+  width: 220px;
+  top: 1320px;
+  left: 2640px;
+}
 
+#item9 {
+  width: 240px;
+  top: 1540px;
+  left: 2530px;
+}
+
+#item10 {
+  width: 240px;
+  top: 1740px;
+  left: 2370px;
+}
+
+#item11 {
+  width: 150px;
+  top: 540px;
+  left: 2530px;
+}
+
+#item12 {
+  width: 150px;
+  top: 330px;
+  left: 2470px;
+}
+
+#item13 {
+  width: 150px;
+  top: 130px;
+  left: 2316px;
+}
+
+#item14 {
+  width: 150px;
+  top: 50px;
+  left: 2110px;
+}
+
+#item15 {
+  width: 150px;
+  top: 0px;
+  left: 1910px;
+}
+
+#item16 {
+  width: 150px;
+  top: 0px;
+  left: 1280px;
+}
+
+#item17 {
+  width: 150px;
+  top: 50px;
+  left: 1080px;
+}
+
+#item18 {
+  width: 150px;
+  top: 130px;
+  left: 880px;
+}
+
+#item19 {
+
+}
