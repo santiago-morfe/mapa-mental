@@ -1,14 +1,21 @@
+import { Item } from './Item'
+
 export function Map() {
   return (
-    <img
-    src="img/img-mapa.jpg"
+    <div
     style={
       {
-        width: '500px',
-        height: '500px',
-        backgroundColor: 'blue'
+        width: '3000px',
+        height: '2000px',
+        border: '1px solid black',
       }
     }>
-    </img>
+      <div id='letrero-1'>
+        Ambientes hibribidos de aprendizaje
+      </div>
+      <div id='letrero-2'>
+        Contexto
+      </div>
+    </div>
   )
 }

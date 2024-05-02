@@ -14,6 +14,11 @@ export function BtnFull() {
   }
 
   return (
-    <button onClick={() => fullScreen()}>full</button>
+    <button
+      onClick={() => fullScreen()}
+      className="btn-full"
+      >
+        full
+      </button>
   );
 }

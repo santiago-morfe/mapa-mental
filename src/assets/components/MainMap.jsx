@@ -5,7 +5,7 @@ export function MainMap () {
 
   const [position, setPosition] = useState({ x: 0, y: 0 })
   const [isMouseDown, setIsMouseDown] = useState(false);
-  const [scale, setScale] = useState(50);
+  const [scale, setScale] = useState(100);
   const [lastTouch, setLastTouch] = useState({ x: 0, y: 0 })
 
 
@@ -60,10 +60,9 @@ export function MainMap () {
       <div
         style={{
           cursor: isMouseDown ? 'grabbing' : 'grab',
-          position: 'relative',
           width: '100%',
           height: '100vh',
-          overflow: 'hidden'
+          overflow: 'hidden',
         }}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMove}
@@ -73,10 +72,10 @@ export function MainMap () {
       >
         <div
           style={{
-            position: 'absolute',
+            position: 'fixed',
             top: `${position.y}px`,
             left: `${position.x}px`,
-            transform: `scale(${(scale/100)})`
+            transform: `scale(${(scale/100)})`,
           }}
         >
           <Map />
@@ -86,8 +85,8 @@ export function MainMap () {
       <input
         className='scale'
         type="range"
-        min="50"
-        max="500"
+        min="10"
+        max="200"
         value={scale}
         onChange={handleChange}
       />

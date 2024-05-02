@@ -1,8 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
 }
 
 .header {
@@ -19,10 +17,13 @@ body {
   border-radius: 1000px;
   margin-top: 10px;
 }
-button {
+.btn-full {
   background-color: #f4f4f400;
-  
-  border-radius: 50%;
+  border-radius: 1000px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
 }
 
 .contador {
@@ -31,9 +32,8 @@ button {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0px;
+  padding: 5px;
   width: 33%;
-  font-family: "LBradley  Hand", cursive;
   font-size: 30px;
 }
 
@@ -48,10 +48,43 @@ button {
   top: 50%;
   rotate: -90deg;
   scale: 2.9;
+}
+main{
+  height: 100vh;
+  align-items: center;
+  overflow: hidden;
+}
 
-
+#letrero-1{
+  display: inline;
+  position: fixed;
+  background-color: aqua;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  left: 1450px;
+  top: 1100px;
+}
+#letrero-2{
+  display: inline;
+  position: fixed;
+  background-color: aqua;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  left: 1450px;
+  top: 1250px;
+  /* darle forma de triangulo invertido apuntando asi abajo */
+  
 
 }
+
+
+
+
+
+
+
 .footer {
   background-color: aqua;
   text-align: center;
