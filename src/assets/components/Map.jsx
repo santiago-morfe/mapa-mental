@@ -55,6 +55,26 @@ export function Map() {
         image='img/img3.png'  
         description='Aula de clase'
       />
+      <Item 
+        id='item4'
+        image='img/img4.png'  
+        description='E - E'
+      />
+      <Item 
+        id='item5'
+        image='img/img5.png'  
+        description='E - P'
+      />
+      <Item 
+        id='item6'
+        image='img/img6.png'  
+        description='Plataformas de gestión del aprendizaje (LMS)'
+      />
+      <Item 
+        id='item7'
+        image='img/img7.png'  
+        description='Herramientas de videoconferencia'
+      />
 
     </div>
   )

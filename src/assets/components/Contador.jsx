@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 // eslint-disable-next-line react/prop-types
-export function Contador({ children }) {
+export function Contador({ id }) {
   const [count, setCount] = useState(0);
 
   function sumar() {
@@ -17,11 +17,7 @@ export function Contador({ children }) {
   return (
     <div 
       className='contador'
-      style = {
-        {
-          backgroundColor: children
-        }
-        }
+      id={id}
       >
       <button onClick={() => restar() }> - </button>
       <p>{count}</p>

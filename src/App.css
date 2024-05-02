@@ -17,6 +17,19 @@ body {
   border-radius: 1000px;
   margin-top: 10px;
 }
+
+#azul{
+  background-color: rgb(45, 122, 210);
+}
+
+#verde{
+  background-color: rgb(45, 210, 45);
+}
+
+#amarillo{
+  background-color: rgb(210, 210, 45);
+}
+
 .btn-full {
   background-color: #f4f4f400;
   border-radius: 1000px;
@@ -64,6 +77,7 @@ main{
   left: 1450px;
   top: 1080px;
 }
+
 #letrero-2{
   display: inline;
   position: fixed;
@@ -76,6 +90,7 @@ main{
   top: 1366px;
   clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
 }
+
 #letrero-3{
   display: inline;
   position: fixed;
@@ -94,7 +109,7 @@ main{
   padding: 10px;
   text-align: center;
   width: 100px;
-  left: 2400px;
+  left: 2180px;
   top: 1000px;
 }
 
@@ -234,7 +249,7 @@ main{
 
 .item {
   position: fixed;
-  width: 150px;
+  /* width: 150px; */
   height: 150px;
   border: 1px solid black;
   border-radius: 20px;
@@ -278,19 +293,45 @@ main{
 }
 
 #item1 {
+  width: 150px;
   top: 1200px;
   left: 1220px;
 }
 
 #item2 {
+  width: 150px;
   top: 1460px;
   left: 1460px;
 }
 
 #item3 {
+  width: 150px;
   top: 1200px;
   left: 1685px;
 }
 
+#item4 {
+  width: 150px;
+  top: 820px;
+  left: 2000px;
+}
+
+#item5 {
+  width: 150px;
+  top: 1070px;
+  left: 2000px;
+}
+
+#item6 {
+  width: 250px;
+  top: 1070px;
+  left: 2720px;
+}
+
+#item7 {
+  width: 280px;
+  top: 1300px;
+  left: 2680px;
+}
 
 
