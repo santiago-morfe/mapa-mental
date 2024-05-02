@@ -158,6 +158,14 @@ main{
   background: url('/svg/arrow-vertical.svg') no-repeat;
 }
 
+.arrow-di-1 {
+  background: url('/svg/arrow-di-1.svg') no-repeat;
+}
+
+.arrow-di-2 {
+  background: url('/svg/arrow-di-2.svg') no-repeat;
+}
+
 #arrow01 {
   position: fixed;
   left: 1610px;
@@ -246,6 +254,106 @@ main{
   background-size: cover;
   background-position: center;
 }
+
+#arrow09 {
+  position: fixed;
+  left: 1780px;
+  top: 200px;
+  width: 140px;
+  height: 560px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(20deg);
+}
+
+#arrow10 {
+  position: fixed;
+  left: 1860px;
+  top: 200px;
+  width: 140px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(35deg);
+}
+
+#arrow11 {
+  position: fixed;
+  left: 1940px;
+  top: 210px;
+  width: 140px;
+  height: 640px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(50deg);
+}
+
+#arrow12 {
+  position: fixed;
+  left: 2000px;
+  top: 260px;
+  width: 140px;
+  height: 680px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(67deg);
+}
+
+#arrow13 {
+  position: fixed;
+  left: 2060px;
+  top: 320px;
+  width: 140px;
+  height: 720px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(82deg);
+}
+
+#arrow14 {
+  position: fixed;
+  left: 1880px;
+  top: 880px;
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(0deg);
+}
+
+#arrow15 {
+  position: fixed;
+  left: 2160px;
+  top: 880px;
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(90deg);
+}
+
+#arrow16 {
+  position: fixed;
+  left: 1880px;
+  top: 1040px;
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(90deg);
+}
+
+#arrow17 {
+  position: fixed;
+  left: 2160px;
+  top: 1040px;
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(0deg);
+}
+
 
 .item {
   position: fixed;

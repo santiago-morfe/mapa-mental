@@ -38,6 +38,15 @@ export function Map() {
       <div className="arrow-double" id="arrow06" />
       <div className="arrow-double" id="arrow07" />
       <div className="arrow-vertical" id="arrow08" />
+      <div className="arrow-vertical" id="arrow09" />
+      <div className="arrow-vertical" id="arrow10" />
+      <div className="arrow-vertical" id="arrow11" />
+      <div className="arrow-vertical" id="arrow12" />
+      <div className="arrow-vertical" id="arrow13" />
+      <div className="arrow-di-1" id="arrow14" />
+      <div className="arrow-di-1" id="arrow15" />
+      <div className="arrow-di-2" id="arrow16" />
+      <div className="arrow-di-2" id="arrow17" />
 
       <Item
         id='item1'
