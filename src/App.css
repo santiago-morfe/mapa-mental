@@ -493,6 +493,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
 }
 
 .item > .front {
@@ -508,7 +509,6 @@ button {
   margin: 0;
   padding: 10px;
   border-radius: 20px;
-  background-color: #ffffff;
 }
 
 .hidden {
